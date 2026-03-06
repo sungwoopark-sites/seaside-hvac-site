@@ -1,0 +1,54 @@
+/* Non-critical animations for Seaside Air site */
+
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Stagger children */
+.reveal:nth-child(2) { transition-delay: 0.1s; }
+.reveal:nth-child(3) { transition-delay: 0.2s; }
+.reveal:nth-child(4) { transition-delay: 0.3s; }
+
+/* Hero content immediate show (LCP) */
+.hero-content.reveal {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
+/* Hover pulse for CTA buttons */
+.btn-primary {
+  position: relative;
+  overflow: hidden;
+}
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.12);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.btn-primary:hover::after { opacity: 1; }
+
+/* Card hover border glow */
+.service-card {
+  position: relative;
+}
+.service-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+  pointer-events: none;
+}
+.service-card:hover::before { border-color: rgba(26, 111, 168, 0.3); }

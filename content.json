@@ -1,0 +1,91 @@
+{
+  "business_name": "Seaside Air Conditioning and Heating",
+  "legal_name": "Seaside Air Enterprises, Inc.",
+  "phone": "(949) 496-3639",
+  "fax": "(949) 496-3638",
+  "email": null,
+  "address": "32959 Calle Perfecto, Ste C, San Juan Capistrano, CA 92675",
+  "hours": "Available 7 days per week",
+  "service_area": "Orange County and Riverside County, California",
+  "founded": "1997",
+  "license": "California Contractor's License #736214",
+  "president": "Victor Serrao",
+  "tagline": "Your premier full-service Orange County HVAC Contractor",
+  "description": "Family-owned and operated HVAC contractor serving South Orange County since 1997. Committed to honesty, professionalism and value-added service.",
+  "services": {
+    "residential": [
+      "Air Conditioning Repair, Replacement & Tune-Up",
+      "Furnace Repair, Replacement & Tune-Up",
+      "New System Installation",
+      "Ductwork Repair and Replacement",
+      "Indoor Air Quality Systems",
+      "Whole House Fans",
+      "Heat Pumps & Air Handlers",
+      "Mini Splits & Specialty Units",
+      "Zoning Systems",
+      "Maintenance Contracts"
+    ],
+    "commercial": [
+      "Split System Installation",
+      "Packaged Gas/Electric and Heat Pump Systems",
+      "System Servicing and Maintenance Contracts",
+      "Exhaust and Make-Up Air Systems"
+    ]
+  },
+  "certifications": [
+    "NATE Certified",
+    "BBB Accredited",
+    "Energy Star Partner",
+    "IHACI Member",
+    "ACP Certified",
+    "Rapport Leadership",
+    "Angie's List Super Service Award"
+  ],
+  "team": [
+    {"name": "Victor Serrao", "role": "President"},
+    {"name": "Steve", "role": "Comfort Manager"},
+    {"name": "Kim", "role": "Office Staff"},
+    {"name": "Joe", "role": "Lead Installer"},
+    {"name": "Darren", "role": "Lead Installer"},
+    {"name": "Marcus", "role": "Installation Technician"},
+    {"name": "Felipe", "role": "Installation Technician"},
+    {"name": "Alex", "role": "Installation Technician"},
+    {"name": "Jose", "role": "Service Technician"},
+    {"name": "Scott", "role": "Service Technician"}
+  ],
+  "testimonials": [
+    {
+      "name": "Christe Roknich",
+      "company": "First Team Real Estate",
+      "text": "Victor has integrity, and treats his customers...fairly...Seaside Air Conditioning and Heating is highly recommended.",
+      "image": "assets/images/christe-testimonial.webp"
+    }
+  ],
+  "social_links": {
+    "facebook": "https://www.facebook.com/pages/Seaside-Air-Conditioning-and-Heating/204718493070879",
+    "twitter": "https://twitter.com/SeasideAC",
+    "yelp": "http://www.yelp.com/biz/seaside-air-conditioning-and-heating-laguna-niguel"
+  },
+  "brand_colors": {
+    "primary": "#1a5276",
+    "secondary": "#2980b9",
+    "accent": "#27ae60"
+  },
+  "special_offers": [
+    "Up to 18 months no-interest financing available",
+    "V.I.P. Customer Care Program - two visits yearly for testing and cleaning"
+  ],
+  "images_downloaded": [
+    "assets/images/logo.png",
+    "assets/images/logo.webp",
+    "assets/images/hero.webp",
+    "assets/images/furnace-repair.webp",
+    "assets/images/ac-compressor.webp",
+    "assets/images/thermostat.webp",
+    "assets/images/furnace-filter.webp",
+    "assets/images/christe-testimonial.webp"
+  ],
+  "original_site": "https://seasideac.com/",
+  "source_batch": "batch-009",
+  "paperclip_issue": "LOCAAA-325"
+}
